@@ -50,7 +50,7 @@ Our dataset of original-derivative images from the 10 rulings can be found [here
 [We measured the CLIP distance for every pair in our dataset](CaseAnalysis.ipynb).
 
 ![CLIP distance between images, We see a clear distinction between uncontested images, and contested ones, with the average CLIP distance between uncontested image pairs around 0.5, while that for those contested around 0.69.](fig1_imageversion.png)
-<p align="center"> _Figure 1._ CLIP distance between cases</p>
+<p align="center"> Figure 1. CLIP distance between cases</p>
 
 #### CLIP distance between cases
 
@@ -60,7 +60,7 @@ Our dataset of original-derivative images from the 10 rulings can be found [here
 | Contested                |      | 0.6 < CLIP ≤ 0.7         |
 | - Fair use               |      | 0.7 < CLIP               |
 | - Not fair use           |      | 0.7 < CLIP               |
-<p align="center"> _Table 1._ CLIP distance between cases</p>
+<p align="center"> Table 1. CLIP distance between cases</p>
 
 In the above figure, the CLIP distance between images ruled as fair use is documented in green, that between those ruled not fair use (copyright infringements) in red, those in blue were deemed probably not fair use, while the CLIP distance between all other pairs is documented in grey. 
 
@@ -76,7 +76,7 @@ A copyright infringement metric based on CLIP is therefore possible with the thr
 | Copyright safe                 | CLIP ≤ 0.6                 |
 | Likely fair use                | 0.6 < CLIP ≤ 0.7           |
 | Likely copyright infringement  | 0.7 < CLIP                 |
-<p align="center">_Table 2._ Copyright and fair use metric (CLIP-based)</p>
+<p align="center"> Table 2. Copyright and fair use metric (CLIP-based)</p>
 
 Note that starting from a CLIP base, additional fine-tuning on copyright cases would produce a metric with a more resolution power. 
 
