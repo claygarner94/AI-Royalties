@@ -16,7 +16,7 @@ We propose an AI metric combining pixel processing of images with contextual lan
 Because CLIP models are trained to recognize the similarity between an image and a caption, they combine elements of language and visual intelligence of image that could be repurposed to assess the level of transformation an original image has undergone, and interpret it in light of precedent copyright rulings.
 
 ### Dataset of Images in United States Fair Use Rulings
-We assessed previous copyright rulings in the U.S. focused on visual image, looking at 10 significant rulings opposing an original work to a derivative one (some rulings involving more than 1 original-derivative pair), and whether the transformation was considered fair use or copyright violation. While there are 4 factors of copyright fair use in the U.S., we attempted to limit our assessment to factor #3, which has to do with the similarity of the images in question (there is no perfect way to do this).
+We assessed previous copyright rulings in the U.S. focused on visual image, looking at [10 significant rulings](https://drive.google.com/drive/folders/1OUvZeKKgi26gzMdPweo5WY5Zys1u5deA?usp=drive_link) opposing an original work to a derivative one (some rulings involving more than 1 original-derivative pair), and whether the transformation was considered fair use or copyright violation. While there are 4 factors of copyright fair use in the U.S., we attempted to limit our assessment to factor #3, which has to do with the similarity of the images in question (there is no perfect way to do this).
 
 ---
 **17 U.S.C. §107: Four Factors for Copyright Fair Use**
@@ -27,7 +27,7 @@ We assessed previous copyright rulings in the U.S. focused on visual image, look
 ---
 To find the rulings, we searched the [U.S. Copyright Office Fair Use Index Database](https://www.copyright.gov/fair-use/fair-index.html)<sup>2</sup> -- specifically selecting categories "photograph", "painting/drawing/graphic", and "film/audiovisual". We also avoided the inlcusion of "parody/satire" rulings, as these tend to fall under the first factor of fair use ("purpose and character of the use"). 
 
-Our dataset of original-derivative images from the 10 rulings can be found here: [insert URL]
+Our dataset of original-derivative images from the 10 rulings can be found [here](https://drive.google.com/drive/folders/1OUvZeKKgi26gzMdPweo5WY5Zys1u5deA?usp=drive_link).
 
 ### Measuring CLIP Distance
 [We measured the CLIP distance for every pair in our dataset](CaseAnalysis.ipynb).
