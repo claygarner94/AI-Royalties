@@ -8,7 +8,7 @@ copyright rulings. An examination (economic and technical feasibility) of previo
 
 ### Copyright Infringement Metric
 Any metric to measure whether or not a new image constitutes sufficient transformation for fair use or violates previous copyrights must: 
-*Identify identical images beyond formats, aspect ratios, or indistinguishable pixel alterations
-*Identify transformed images of a same work or subject 
-*Identify different images referencing identical subjects 
-*Integrate the subjective elements of precedent jury's decisions and court rulings
+* Identify identical images beyond formats, aspect ratios, or indistinguishable pixel alterations
+* Identify transformed images of a same work or subject 
+* Identify different images referencing identical subjects 
+* Integrate the subjective elements of precedent jury's decisions and court rulings
