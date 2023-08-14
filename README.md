@@ -32,7 +32,7 @@ Our dataset of original-derivative images from the 10 rulings can be found here:
 ### Measuring CLIP Distance
 [We measured the CLIP distance for every pair in our dataset](CaseAnalysis.ipynb).
 
-[/Users/claytongarner/Documents/GitHub/AI-Royalties/fair_use_fig1.pdf]
+![CLIP distance between images, We see a clear distinction between uncontested images, and contested ones, with the average CLIP distance between uncontested image pairs around 0.5, while that for those contested around 0.69.](fair_use_fig1.pdf)
 
 In the above figure, the CLIP distance between images ruled as fair use is documented in green, that between those ruled not fair use (copyright infringements) in red, those in blue were deemed probably not fair use, while the CLIP distance between all other pairs is documented in grey. 
 
