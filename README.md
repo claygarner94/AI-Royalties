@@ -32,7 +32,7 @@ Our dataset of original-derivative images from the 10 rulings can be found here:
 ### Measuring CLIP Distance
 [We measured the CLIP distance for every pair in our dataset](CaseAnalysis.ipynb).
 
-plt.savefig("/Users/jonathanraiman/Desktop/fair_use.pdf", bbox_inches="tight");
+[/Users/claytongarner/Documents/GitHub/AI-Royalties/fair_use_fig1.pdf]
 
 In the above figure, the CLIP distance between images ruled as fair use is documented in green, that between those ruled not fair use (copyright infringements) in red, those in blue were deemed probably not fair use, while the CLIP distance between all other pairs is documented in grey. 
 
