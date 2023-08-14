@@ -29,7 +29,7 @@ While there are four factors of copyright fair use in the U.S., we attempted to 
 > 3. **The amount and substantiality of the portion used in relation to the copyrighted work as a whole**
 > 4. The effect of the use upon the potential market for or value of the copyrighted work
 ---
-To find the rulings, we searched the [U.S. Copyright Office Fair Use Index Database](https://www.copyright.gov/fair-use/fair-index.html)<sup>2</sup> -- specifically selecting categories "photograph", "painting/drawing/graphic", and "film/audiovisual" while deselecting "parody/satire". 
+To find the rulings, we searched the [U.S. Copyright Office Fair Use Index Database](https://www.copyright.gov/fair-use/fair-index.html)<sup>2</sup> -- specifically selecting categories "photograph", "painting/drawing/graphic", and "film/audiovisual". We also avoided the inlcusion of parody/satire rulings, as these tend to fall under the first factor of fair use ("purpose and character of the use"). 
 
 
 
