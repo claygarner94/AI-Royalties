@@ -26,14 +26,14 @@ We assessed previous copyright rulings in the U.S. mostly focused on visual imag
   * _Seltzer v. Green Day, Inc., 725 F.3d 1170 (9th Cir. 2013)_
 * Ruled NOT Fair Use
   * _Morris v. Guetta, No. LA CV12-00684 JAK (RZX) (C.D. Cal. Feb. 4, 2013)_
-  * _Andy Warhol Foundation for the Visual Arts, Inc. v. Goldsmith, (598 U.S. ___, 2023)_
+  * _Andy Warhol Foundation for the Visual Arts, Inc. v. Goldsmith, (598 U.S. [], 2023)_
   * _Dr. Seuss Enters., L.P. v. ComicMix LLC, 983 F.3d 443 (9th Cir. 2020)_
   * _Dam Things From Denmark v. Russ Berrie & Co., 173 F. Supp. 2d 277 (D.N.J. 2001)_
   * _O’Neil v. Ratajkowski, No. 19 CIV. 9769 (AT), 2021 WL 4443259 (S.D.N.Y. Sept. 28, 2021)_
 * Mixed Ruling (Both Fair Use and NOT Fair Use)
   * _Cariou v. Prince, 714 F.3d 694 (2d Cir. 2013)_
 
-While there are 4 factors of copyright fair use in the U.S., we attempted to limit our assessment to factor #3, which has to do with the similarity of the images in question. There is no perfect way to do this -- given the relatively few cases related to factor #3 and visual image.
+While there are 4 factors of copyright fair use in the U.S., we attempted to focus our assessment on factor #3, which has to do with the similarity of the images in question. There is no perfect way to do this -- given the relatively few cases limited to factor #3 and visual image. Some of the cases, such as _Andy Warhol Foundation for the Visual Arts, Inc. v. Goldsmith_, were ruled based on the other factors.
 
 ---
 **17 U.S.C. §107: Four Factors for Copyright Fair Use**
