@@ -18,17 +18,20 @@ We propose an AI metric combining pixel processing of images with contextual lan
 Because CLIP models are trained to recognize the similarity between an image and a caption, they combine elements of language and visual intelligence of image that could be repurposed to assess the level of transformation an original image has undergone, and interpret it in light of precedent copyright rulings.
 
 ### Dataset of Images in United States Fair Use Rulings
+We assessed previous copyright rulings in the U.S. focused on visual image, looking at 10 significant rulings opposing an original work to a derivative one (some rulings involving more than 1 original-derivative pair), and whether the transformation was considered fair use or copyright violation.
+
+While there are four factors of copyright fair use in the U.S., we attempted to limit our assessment to factor #3, which has to do with the similarity of the images in question. 
+
 ---
 **17 U.S.C. §107: Four Factors for Copyright Fair Use**
 > 1. The purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes
 > 2. The nature of the copyrighted work
-> **3. The amount and substantiality of the portion used in relation to the copyrighted work as a whole
+> 3. **The amount and substantiality of the portion used in relation to the copyrighted work as a whole**
 > 4. The effect of the use upon the potential market for or value of the copyrighted work
 ---
+To find the rulings, we searched the [U.S. Copyright Office Fair Use Index Database](https://www.copyright.gov/fair-use/fair-index.html)<sup>2</sup> -- specifically selecting categories "photograph", "painting/drawing/graphic", and "film/audiovisual" while deselecting "parody/satire". 
 
-We assessed previous copyright rulings in the U.S. focused on visual image, looking at 10 significant rulings opposing an original work to a derivative one (some rulings involving more than 1 image pair), and whether the transformation was considered fair use or copyright violation.
 
-To find the rulings, we searched the [U.S. Copyright Office Fair Use Index Database](https://www.copyright.gov/fair-use/fair-index.html)<sup>2</sup> -- specifically selecting categories "photograph", "painting/drawing/graphic", and "film/audiovisual" while deselecting "parody/satire".
 
 
 
