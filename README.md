@@ -12,3 +12,9 @@ Any metric to measure whether or not a new image constitutes sufficient transfor
 * Identify transformed images of a same work or subject 
 * Identify different images referencing identical subjects 
 * Integrate the subjective elements of precedent jury's decisions and court rulings
+
+Because they combine technical dimensions with subjective social aspects, the metric most go beyond pure visual analysis of the images.
+We propose an AI metric combining pixel processing of images with contextual language. One such metric that has recently come to prominence is CLIP. [CLIP models](https://arxiv.org/pdf/2103.00020.pdf)<sup>1</sup> are a family of image understanding models that were made freely available by different research organizations such as OpenAI, Stability.AI, and others. 
+Because CLIP models are trained to recognize the similarity between an image and a caption, they combine elements of language and visual intelligence of image that could be repurposed to assess the level of transformation an original image has undergone, and interpret it in light of precedent copyright rulings.
+
+### Dataset of Images in United States Fair Use Rulings
