@@ -13,25 +13,25 @@ Any metric to measure whether or not a new image constitutes sufficient transfor
 
 Because they combine technical dimensions with subjective social aspects, the metric most go beyond pure visual analysis of the images.
 We propose an AI metric combining pixel processing of images with contextual language. One such metric that has recently come to prominence is CLIP. [CLIP models](https://arxiv.org/pdf/2103.00020.pdf)<sup>1</sup> are a family of image understanding models that were made freely available by different research organizations such as OpenAI, Stability.AI, and others. 
+
 Because CLIP models are trained to recognize the similarity between an image and a caption, they combine elements of language and visual intelligence of image that could be repurposed to assess the level of transformation an original image has undergone, and interpret it in light of precedent copyright rulings.
 
 ### Dataset of Images in United States Fair Use Rulings
 We assessed previous copyright rulings in the U.S. mostly focused on visual image, looking at [10 significant rulings](https://drive.google.com/drive/folders/1OUvZeKKgi26gzMdPweo5WY5Zys1u5deA?usp=drive_link) opposing an original work to a derivative one (some rulings involving more than 1 original-derivative pair), and whether the transformation was considered fair use or copyright violation. 
 
-**Cases Assessed**:
-* Ruled Fair Use
-  * _Marano v. Metro. Museum of Art, 844 F. App’x 436 (2d Cir. 2021)_
-  * _Blanch v. Koons, 467 F.3d 244 (2d Cir. 2006)_
-  * _Kienitz v. Sconnie Nation, 766 F.3d 756 (7th Cir. 2014)_
-  * _Seltzer v. Green Day, Inc., 725 F.3d 1170 (9th Cir. 2013)_
-* Ruled NOT Fair Use
-  * _Morris v. Guetta, No. LA CV12-00684 JAK (RZX) (C.D. Cal. Feb. 4, 2013)_
-  * _Andy Warhol Foundation for the Visual Arts, Inc. v. Goldsmith, (598 U.S. [], 2023)_
-  * _Dr. Seuss Enters., L.P. v. ComicMix LLC, 983 F.3d 443 (9th Cir. 2020)_
-  * _Dam Things From Denmark v. Russ Berrie & Co., 173 F. Supp. 2d 277 (D.N.J. 2001)_
-  * _O’Neil v. Ratajkowski, No. 19 CIV. 9769 (AT), 2021 WL 4443259 (S.D.N.Y. Sept. 28, 2021)_
-* Mixed Ruling (Both Fair Use and NOT Fair Use)
-  * _Cariou v. Prince, 714 F.3d 694 (2d Cir. 2013)_
+| **Cases Assessed** | **Ruling** |
+|--------------------|------------|
+| _Marano v. Metro. Museum of Art, 844 F. App’x 436 (2d Cir. 2021)_ | Ruled Fair Use |
+| _Blanch v. Koons, 467 F.3d 244 (2d Cir. 2006)_ | Ruled Fair Use |
+| _Kienitz v. Sconnie Nation, 766 F.3d 756 (7th Cir. 2014)_ | Ruled Fair Use |
+| _Seltzer v. Green Day, Inc., 725 F.3d 1170 (9th Cir. 2013)_ | Ruled Fair Use |
+| _Morris v. Guetta, No. LA CV12-00684 JAK (RZX) (C.D. Cal. Feb. 4, 2013)_ | Ruled NOT Fair Use |
+| _Andy Warhol Foundation for the Visual Arts, Inc. v. Goldsmith, (598 U.S. [], 2023)_ | Ruled NOT Fair Use |
+| _Dr. Seuss Enters., L.P. v. ComicMix LLC, 983 F.3d 443 (9th Cir. 2020)_ | Ruled NOT Fair Use |
+| _Dam Things From Denmark v. Russ Berrie & Co., 173 F. Supp. 2d 277 (D.N.J. 2001)_ | Ruled NOT Fair Use |
+| _O’Neil v. Ratajkowski, No. 19 CIV. 9769 (AT), 2021 WL 4443259 (S.D.N.Y. Sept. 28, 2021)_ | Ruled NOT Fair Use |
+| _Cariou v. Prince, 714 F.3d 694 (2d Cir. 2013)_ | Mixed Ruling (Both Fair Use and NOT Fair Use) |
+
 
 While there are 4 factors of copyright fair use in the U.S., we attempted to focus our assessment on factor #3, which has to do with the similarity of the images in question. There is no perfect way to do this -- given the relatively few cases limited to factor #3 and visual image. Some of the cases, such as _Andy Warhol Foundation for the Visual Arts, Inc. v. Goldsmith_, were ruled primarily based on another factor.
 
