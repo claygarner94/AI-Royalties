@@ -16,7 +16,13 @@ We propose an AI metric combining pixel processing of images with contextual lan
 Because CLIP models are trained to recognize the similarity between an image and a caption, they combine elements of language and visual intelligence of image that could be repurposed to assess the level of transformation an original image has undergone, and interpret it in light of precedent copyright rulings.
 
 ### Dataset of Images in United States Fair Use Rulings
-We assessed previous copyright rulings in the U.S. focused on visual image, looking at [10 significant rulings](https://drive.google.com/drive/folders/1OUvZeKKgi26gzMdPweo5WY5Zys1u5deA?usp=drive_link) opposing an original work to a derivative one (some rulings involving more than 1 original-derivative pair), and whether the transformation was considered fair use or copyright violation. While there are 4 factors of copyright fair use in the U.S., we attempted to limit our assessment to factor #3, which has to do with the similarity of the images in question (there is no perfect way to do this).
+We assessed previous copyright rulings in the U.S. focused on visual image, looking at [10 significant rulings](https://drive.google.com/drive/folders/1OUvZeKKgi26gzMdPweo5WY5Zys1u5deA?usp=drive_link) opposing an original work to a derivative one (some rulings involving more than 1 original-derivative pair), and whether the transformation was considered fair use or copyright violation. 
+
+**Cases Assessed**:
+* 
+
+
+While there are 4 factors of copyright fair use in the U.S., we attempted to limit our assessment to factor #3, which has to do with the similarity of the images in question (there is no perfect way to do this).
 
 ---
 **17 U.S.C. §107: Four Factors for Copyright Fair Use**
@@ -36,12 +42,11 @@ Our dataset of original-derivative images from the 10 rulings can be found [here
 
 In the above figure, the CLIP distance between images ruled as fair use is documented in green, that between those ruled not fair use (copyright infringements) in red, those in blue were deemed probably not fair use, while the CLIP distance between all other pairs is documented in grey. 
 
-We see a clear distinction between uncontested images, and contested ones, with the average CLIP distance between uncontested image pairs around 0.5, while that for those contested around 0.69.
-
-Moreover, for contested images, CLIP is able to discern between those ruled fair use (mean of 0.6), and those infringing copyright (mean of 0.76), with a resolution beyond the first standard deviation. 
+We see a clear distinction between uncontested images, and contested ones, with the average CLIP distance between uncontested image pairs around 0.5, while that for those contested around 0.69. Moreover, for contested images, CLIP is able to discern between those ruled fair use (mean of 0.6), and those infringing copyright (mean of 0.76), with a resolution beyond the first standard deviation. 
 Examples of contested image pairs are documented in figure \ref{fig:Copyright cases and metric}, along with their respective CLIP distance. 
 
-A copyright infringement metric based on CLIP is therefore possible with the thresholds proposed in table \ref{Tab: Copyright and fair use metric (CLIP-based)}. 
+A copyright infringement metric based on CLIP is therefore possible with the thresholds proposed in the below table:
+\\
 
 Note that starting from a CLIP base, additional fine-tuning on copyright cases would produce a metric with a more resolution power. 
 
