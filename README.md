@@ -19,6 +19,8 @@ Because CLIP models are trained to recognize the similarity between an image and
 ### Dataset of Images in United States Fair Use Rulings
 We assessed previous copyright rulings in the U.S. mostly focused on visual image, looking at [10 significant rulings](https://drive.google.com/drive/folders/1OUvZeKKgi26gzMdPweo5WY5Zys1u5deA?usp=drive_link) opposing an original work to a derivative one (some rulings involving more than 1 original-derivative pair), and whether the transformation was considered fair use or copyright violation. 
 
+To find the rulings, we searched the [U.S. Copyright Office Fair Use Index Database](https://www.copyright.gov/fair-use/fair-index.html)<sup>2</sup>. While there are 4 factors of copyright fair use in the U.S., we attempted to focus our assessment on factor #3 (_"The amount and substantiality of the portion used in relation to the copyrighted work as a whole"_), which has to do with the similarity of the images in question. There is no perfect way to do this -- given the relatively few cases limited to factor #3 and visual image. Some of the cases, such as _Andy Warhol Foundation for the Visual Arts, Inc. v. Goldsmith_, were ruled primarily based on another factor.
+
 | **Cases Assessed** | **Ruling** |
 |--------------------|------------|
 | _Marano v. Metro. Museum of Art, 844 F. App’x 436 (2d Cir. 2021)_ | Ruled Fair Use |
@@ -32,19 +34,8 @@ We assessed previous copyright rulings in the U.S. mostly focused on visual imag
 | _O’Neil v. Ratajkowski, No. 19 CIV. 9769 (AT), 2021 WL 4443259 (S.D.N.Y. Sept. 28, 2021)_ | Ruled NOT Fair Use |
 | _Cariou v. Prince, 714 F.3d 694 (2d Cir. 2013)_ | Mixed Ruling (Both Fair Use and NOT Fair Use) |
 
-
-While there are 4 factors of copyright fair use in the U.S., we attempted to focus our assessment on factor #3, which has to do with the similarity of the images in question. There is no perfect way to do this -- given the relatively few cases limited to factor #3 and visual image. Some of the cases, such as _Andy Warhol Foundation for the Visual Arts, Inc. v. Goldsmith_, were ruled primarily based on another factor.
-
----
-**17 U.S.C. §107: Four Factors for Copyright Fair Use**
-> 1. The purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes
-> 2. The nature of the copyrighted work
-> 3. **The amount and substantiality of the portion used in relation to the copyrighted work as a whole**
-> 4. The effect of the use upon the potential market for or value of the copyrighted work
----
-To find the rulings, we searched the [U.S. Copyright Office Fair Use Index Database](https://www.copyright.gov/fair-use/fair-index.html)<sup>2</sup> -- specifically selecting categories "photograph", "painting/drawing/graphic", and "film/audiovisual". We also avoided the inlcusion of "parody/satire" rulings, as these tend to fall under the first factor of fair use ("purpose and character of the use"). 
-
 Our dataset of original-derivative images from the 10 rulings can be found [here](https://drive.google.com/drive/folders/1OUvZeKKgi26gzMdPweo5WY5Zys1u5deA?usp=drive_link).
+
 
 ### Measuring CLIP Distance
 [We measured the CLIP distance for every pair in our dataset](CaseAnalysis.ipynb).
