@@ -18,3 +18,6 @@ We propose an AI metric combining pixel processing of images with contextual lan
 Because CLIP models are trained to recognize the similarity between an image and a caption, they combine elements of language and visual intelligence of image that could be repurposed to assess the level of transformation an original image has undergone, and interpret it in light of precedent copyright rulings.
 
 ### Dataset of Images in United States Fair Use Rulings
+We assessed previous copyright rulings in the U.S., constituting a list of over cases opposing an original work to a derivative one, and whether the transformation was considered fair use or copyright violation.
+
+To find the rulings, we searched the [U.S. Copyright Office Fair Use Index Database](https://www.copyright.gov/fair-use/fair-index.html)<sup>2</sup> -- specifically selecting categories "photograph", "painting/drawing/graphic", and "film/audiovisual" while deselecting "parody/satire".
