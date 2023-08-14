@@ -8,16 +8,27 @@ copyright rulings. An examination (economic and technical feasibility) of previo
 
 ### Copyright Infringement Metric
 Any metric to measure whether or not a new image constitutes sufficient transformation for fair use or violates previous copyrights must: 
-* Identify identical images beyond formats, aspect ratios, or indistinguishable pixel alterations
-* Identify transformed images of a same work or subject 
-* Identify different images referencing identical subjects 
-* Integrate the subjective elements of precedent jury's decisions and court rulings
+* ... identify identical images beyond formats, aspect ratios, or indistinguishable pixel alterations
+* ... identify transformed images of a same work or subject 
+* ... identify different images referencing identical subjects 
+* ... integrate the subjective elements of precedent jury's decisions and court rulings
 
 Because they combine technical dimensions with subjective social aspects, the metric most go beyond pure visual analysis of the images.
 We propose an AI metric combining pixel processing of images with contextual language. One such metric that has recently come to prominence is CLIP. [CLIP models](https://arxiv.org/pdf/2103.00020.pdf)<sup>1</sup> are a family of image understanding models that were made freely available by different research organizations such as OpenAI, Stability.AI, and others. 
 Because CLIP models are trained to recognize the similarity between an image and a caption, they combine elements of language and visual intelligence of image that could be repurposed to assess the level of transformation an original image has undergone, and interpret it in light of precedent copyright rulings.
 
 ### Dataset of Images in United States Fair Use Rulings
-We assessed previous copyright rulings in the U.S., constituting a list of over cases opposing an original work to a derivative one, and whether the transformation was considered fair use or copyright violation.
+---
+**17 U.S.C. §107: Four Factors for Copyright Fair Use**
+> 1. The purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes
+> 2. The nature of the copyrighted work
+> **3. The amount and substantiality of the portion used in relation to the copyrighted work as a whole
+> 4. The effect of the use upon the potential market for or value of the copyrighted work
+---
+
+We assessed previous copyright rulings in the U.S. focused on visual image, looking at 10 significant rulings opposing an original work to a derivative one (some rulings involving more than 1 image pair), and whether the transformation was considered fair use or copyright violation.
 
 To find the rulings, we searched the [U.S. Copyright Office Fair Use Index Database](https://www.copyright.gov/fair-use/fair-index.html)<sup>2</sup> -- specifically selecting categories "photograph", "painting/drawing/graphic", and "film/audiovisual" while deselecting "parody/satire".
+
+
+
