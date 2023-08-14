@@ -19,7 +19,15 @@ Because CLIP models are trained to recognize the similarity between an image and
 We assessed previous copyright rulings in the U.S. focused on visual image, looking at [10 significant rulings](https://drive.google.com/drive/folders/1OUvZeKKgi26gzMdPweo5WY5Zys1u5deA?usp=drive_link) opposing an original work to a derivative one (some rulings involving more than 1 original-derivative pair), and whether the transformation was considered fair use or copyright violation. 
 
 **Cases Assessed**:
-* 
+* Ruled Fair Use
+*   Marano v. Metro. Museum of Art, 844 F. App’x 436 (2d Cir. 2021)
+*   Blanch v. Koons, 467 F.3d 244 (2d Cir. 2006)
+*   Kienitz v. Sconnie Nation, 766 F.3d 756 (7th Cir. 2014)
+*   Seltzer v. Green Day, Inc., 725 F.3d 1170 (9th Cir. 2013)
+*   Cariou v. Prince, 714 F.3d 694 (2d Cir. 2013)
+* Ruled NOT Fair Use
+*   
+  
 
 
 While there are 4 factors of copyright fair use in the U.S., we attempted to limit our assessment to factor #3, which has to do with the similarity of the images in question (there is no perfect way to do this).
