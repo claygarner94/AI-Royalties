@@ -54,10 +54,9 @@ Our dataset of original-derivative images from the 10 rulings can be found [here
 
 Table 1. CLIP distance between cases
 
-In the above figure, the CLIP distance between images ruled as fair use is documented in green, that between those ruled not fair use (copyright infringements) in red, those in blue were deemed probably not fair use, while the CLIP distance between all other pairs is documented in grey. 
+In Figure 1., the CLIP distance between images ruled as fair use is documented in green, that between those ruled not fair use (copyright infringements) in red, those in blue were deemed probably not fair use, while the CLIP distance between all other pairs is documented in grey. 
 
 We see a clear distinction between uncontested images, and contested ones, with the average CLIP distance between uncontested image pairs around 0.5, while that for those contested around 0.69. Moreover, for contested images, CLIP is able to discern between those ruled fair use (mean of 0.6), and those infringing copyright (mean of 0.76), with a resolution beyond the first standard deviation. 
-Examples of contested image pairs are documented in figure \ref{fig:Copyright cases and metric}, along with their respective CLIP distance. 
 
 A copyright infringement metric based on CLIP is therefore possible with the thresholds proposed in the below table:
 
