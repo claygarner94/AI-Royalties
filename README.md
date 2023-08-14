@@ -51,7 +51,7 @@ Our dataset of original-derivative images from the 10 rulings can be found [here
 | Contested                |      | 0.6 < CLIP ≤ 0.7         |
 | - Fair use               |      | 0.7 < CLIP               |
 | - Not fair use           |      | 0.7 < CLIP               |
-<p align="center"> Table 1. CLIP distance between cases</p>
+Table 1. CLIP distance between cases
 
 In the above figure, the CLIP distance between images ruled as fair use is documented in green, that between those ruled not fair use (copyright infringements) in red, those in blue were deemed probably not fair use, while the CLIP distance between all other pairs is documented in grey. 
 
@@ -67,7 +67,7 @@ A copyright infringement metric based on CLIP is therefore possible with the thr
 | Copyright safe                 | CLIP ≤ 0.6                 |
 | Likely fair use                | 0.6 < CLIP ≤ 0.7           |
 | Likely copyright infringement  | 0.7 < CLIP                 |
-<p align="center"> Table 2. Copyright and fair use metric (CLIP-based)</p>
+Table 2. Copyright and fair use metric (CLIP-based)
 
 Note that starting from a CLIP base, additional fine-tuning on copyright cases would produce a metric with a more resolution power. 
 
