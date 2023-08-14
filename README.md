@@ -39,7 +39,7 @@ Our dataset of original-derivative images from the 10 rulings can be found [here
 [We measured the CLIP distance for every pair in our dataset](CaseAnalysis.ipynb).
 
 ![CLIP distance between images, We see a clear distinction between uncontested images, and contested ones, with the average CLIP distance between uncontested image pairs around 0.5, while that for those contested around 0.69.](fig1_imageversion.png)
-## CLIP distance between cases
+#### CLIP distance between cases
 
 | CLIP distance            | Mean | Standard Deviation       |
 |--------------------------|------|--------------------------|
@@ -56,7 +56,7 @@ Examples of contested image pairs are documented in figure \ref{fig:Copyright ca
 
 A copyright infringement metric based on CLIP is therefore possible with the thresholds proposed in the below table:
 
-## Copyright & fair use metric (CLIP-based thresholds)
+#### Copyright & fair use metric (CLIP-based thresholds)
 
 | (If contested)                  | CLIP distance              |
 |--------------------------------|----------------------------|
